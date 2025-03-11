@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.programs{
+    margin: 250px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.program img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    height: 400px;
+    
+}
+.program{
+    flex-basis: 31%;
+    position: relative;
+     
+}
+
+.caption1{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    bottom: 0;
+    right: 0;
+    background: rgba(1, 31, 81, 0.8);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.caption2{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    bottom: 0;
+    right: 0;
+    background: rgba(75, 99, 139, 0.8);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.caption3{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.3);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.program p{
+    font-size: 30px;
+    margin: -160px 0;
+    text-align: center;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.program h1{
+    font-size: 60px;
+    margin: 150px 0;
+    text-align: center;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
